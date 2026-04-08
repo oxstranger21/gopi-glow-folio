@@ -1,8 +1,9 @@
-import { Shield, Smartphone, BarChart3, Gamepad } from "lucide-react";
+import { Shield, Smartphone, BarChart3, Layers } from "lucide-react";
 
 const items = [
   { icon: Shield, text: "Cybersecurity & Ethical Hacking" },
   { icon: Smartphone, text: "Android Apps (Java + XML)" },
+  { icon: Layers, text: "Flutter & Dart Development" },
   { icon: BarChart3, text: "Data Structures & Algorithms" },
 ];
 
