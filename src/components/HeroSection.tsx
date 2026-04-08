@@ -93,6 +93,12 @@ const HeroSection = () => {
               Contact Me
             </a>
           </Button>
+          <Button variant="neon-outline" size="lg" asChild>
+            <a href="/ressume_Gopi.pdf" download>
+              <Download size={18} />
+              Download Resume
+            </a>
+          </Button>
         </div>
       </div>
     </section>
