@@ -17,8 +17,8 @@ const socials = [
   {
     icon: Github,
     label: "GitHub",
-    value: "gopikumar",
-    href: "https://github.com/gopikumar",
+    value: "oxstranger21",
+    href: "https://github.com/oxstranger21",
   },
 ];
 
