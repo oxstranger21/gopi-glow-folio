@@ -30,7 +30,7 @@ const CurrentlyWorkingSection = () => {
         <div className="mt-12 glass neon-border rounded-xl p-6 text-center">
           <p className="text-lg mb-1">🎮 Fun Fact</p>
           <p className="text-muted-foreground">
-            Loves cricket 🏏 and exploring new tech!
+            Loves travelling ✈️ and exploring new tech!
           </p>
         </div>
       </div>
