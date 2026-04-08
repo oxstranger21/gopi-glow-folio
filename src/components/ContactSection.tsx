@@ -11,7 +11,7 @@ const socials = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "https://www.linkedin.com/in/gopi-kumar-612a2b294/",
+    value: "Gopi Kumar",
     href: "https://www.linkedin.com/in/gopi-kumar-612a2b294/",
   },
   {
