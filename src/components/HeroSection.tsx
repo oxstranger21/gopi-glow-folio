@@ -55,8 +55,8 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         {/* Profile Picture */}
         <div className="mb-6 animate-fade-in opacity-0" style={{ animationDelay: "0.1s" }}>
-          <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-[3px] border-neon-cyan/60 shadow-[0_0_30px_hsl(var(--neon-cyan)/0.3)] hover:shadow-[0_0_50px_hsl(var(--neon-cyan)/0.5)] transition-shadow duration-300">
-            <img src={profilePic} alt="Gopi Kumar" className="w-full h-full object-cover scale-[0.85]" />
+          <div className="w-36 h-36 md:w-44 md:h-44 mx-auto rounded-full overflow-hidden border-[3px] border-neon-cyan/60 shadow-[0_0_30px_hsl(var(--neon-cyan)/0.3)] hover:shadow-[0_0_50px_hsl(var(--neon-cyan)/0.5)] transition-shadow duration-300">
+            <img src={profilePic} alt="Gopi Kumar" className="w-full h-full object-cover object-top" />
           </div>
         </div>
 
