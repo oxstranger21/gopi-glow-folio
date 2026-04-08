@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Star, MessageSquare, Gamepad2, BookOpen, Code } from "lucide-react";
+import { ExternalLink, Github, Star, MessageSquare, Gamepad2, BookOpen, Code, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
