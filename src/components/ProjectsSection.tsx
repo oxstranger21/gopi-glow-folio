@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Star, MessageSquare, Gamepad2, BookOpen, Code } from "lucide-react";
+import { ExternalLink, Github, Star, MessageSquare, Gamepad2, BookOpen, Code, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -11,6 +11,7 @@ const projects = [
     icon: MessageSquare,
     features: ["Real-time Messaging", "User Auth", "Image Sharing", "Social Features"],
     github: "#",
+    playStore: "https://play.google.com/store/apps/details?id=com.oxstranger.talkhub",
   },
   {
     title: "Quiz App",
@@ -114,13 +115,21 @@ const ProjectsSection = () => {
                 </div>
 
                 {/* Actions */}
-                <div className="flex gap-3">
+                <div className="flex flex-wrap gap-3">
                   <Button variant="neon-outline" size="sm" asChild>
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github size={14} />
                       GitHub
                     </a>
                   </Button>
+                  {project.playStore && (
+                    <Button variant="neon-outline" size="sm" asChild>
+                      <a href={project.playStore} target="_blank" rel="noopener noreferrer">
+                        <Play size={14} />
+                        Play Store
+                      </a>
+                    </Button>
+                  )}
                   <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-neon-cyan">
                     <ExternalLink size={14} />
                     Demo
