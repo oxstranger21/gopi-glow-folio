@@ -18,8 +18,8 @@ const items = [
   },
   {
     icon: Brain,
-    title: "AI & ML Enthusiast",
-    desc: "Exploring artificial intelligence in CSE curriculum",
+    title: "Flutter Developer",
+    desc: "Building cross-platform apps with Flutter & Dart",
   },
 ];
 
