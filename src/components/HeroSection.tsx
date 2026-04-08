@@ -56,7 +56,7 @@ const HeroSection = () => {
         {/* Profile Picture */}
         <div className="mb-6 animate-fade-in opacity-0" style={{ animationDelay: "0.1s" }}>
           <div className="w-36 h-36 md:w-44 md:h-44 mx-auto rounded-full overflow-hidden border-[3px] border-neon-cyan/60 shadow-[0_0_30px_hsl(var(--neon-cyan)/0.3)] hover:shadow-[0_0_50px_hsl(var(--neon-cyan)/0.5)] transition-shadow duration-300">
-            <img src={profilePic} alt="Gopi Kumar" className="w-full h-full object-cover" style={{ objectPosition: "center calc(50% - 2px)" }} />
+            <img src={profilePic} alt="Gopi Kumar" className="w-full h-full object-cover" style={{ objectPosition: "center calc(50% - 1px)" }} />
           </div>
         </div>
 
