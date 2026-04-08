@@ -24,12 +24,12 @@ const projects = [
   },
   {
     title: "Kids Learning App",
-    subtitle: "Educational App for Children",
-    highlight: "🎓 EdTech Idea",
-    description: "Educational app for children to learn alphabets, numbers, and basic arithmetic with an interactive and colorful UI designed for kids.",
-    tech: ["Java", "XML", "Android"],
+    subtitle: "Flutter-Based Educational App",
+    highlight: "⭐ Cross-Platform App",
+    description: "Educational app for children with interactive UI featuring alphabet learning (A–Z), numbers and counting, and basic math operations including addition, subtraction, multiplication, and division with a kid-friendly colorful interface.",
+    tech: ["Flutter", "Dart"],
     icon: BookOpen,
-    features: ["Alphabet Learning", "Numbers & Math", "Interactive UI"],
+    features: ["Alphabet Learning (A–Z)", "Numbers & Counting", "Basic Math (+-×÷)", "Kid-Friendly UI"],
     github: "#",
   },
   {
