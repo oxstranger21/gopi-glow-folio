@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Mail } from "lucide-react";
+import { ArrowDown, Mail, Download } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import profilePic from "@/assets/profile.jpeg";
 
