@@ -36,13 +36,13 @@ const GitHubSection = () => {
             Check out my GitHub for the latest contributions and projects.
           </p>
           <a
-            href="https://github.com/gopikumar"
+            href="https://github.com/oxstranger21"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-neon-cyan hover:underline font-mono text-sm"
           >
             <Github size={16} />
-            github.com/gopikumar
+            github.com/oxstranger21
           </a>
         </div>
       </div>
