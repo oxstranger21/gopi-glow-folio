@@ -11,6 +11,7 @@ const projects = [
     icon: MessageSquare,
     features: ["Real-time Messaging", "User Auth", "Image Sharing", "Social Features"],
     github: "#",
+    playStore: "https://play.google.com/store/apps/details?id=com.oxstranger.talkhub",
   },
   {
     title: "Quiz App",
