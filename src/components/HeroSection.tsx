@@ -65,7 +65,7 @@ const HeroSection = () => {
         </p>
 
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 animate-fade-in opacity-0" style={{ animationDelay: "0.4s" }}>
-          Hey 👋, I'm{" "}
+          I'm{" "}
           <span className="neon-text">Gopi Kumar</span>
         </h1>
 
