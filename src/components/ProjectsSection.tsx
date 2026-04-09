@@ -68,9 +68,9 @@ const ProjectsSection = () => {
             >
               {/* Header */}
               <div className="p-6 pb-0">
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
                   <div className="flex items-center gap-3">
-                    <div className="p-2.5 rounded-xl bg-neon-cyan/10 group-hover:bg-neon-cyan/20 transition-colors">
+                    <div className="p-2.5 rounded-xl bg-neon-cyan/10 group-hover:bg-neon-cyan/20 transition-colors shrink-0">
                       <project.icon className="text-neon-cyan" size={22} />
                     </div>
                     <div>
@@ -78,7 +78,7 @@ const ProjectsSection = () => {
                       <p className="text-xs text-muted-foreground">{project.subtitle}</p>
                     </div>
                   </div>
-                  <span className="text-xs font-mono px-3 py-1 rounded-full bg-neon-cyan/10 text-neon-cyan border border-neon-cyan/20">
+                  <span className="text-xs font-mono px-3 py-1 rounded-full bg-neon-cyan/10 text-neon-cyan border border-neon-cyan/20 whitespace-nowrap self-start sm:self-auto">
                     {project.highlight}
                   </span>
                 </div>
